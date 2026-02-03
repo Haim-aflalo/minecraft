@@ -20,34 +20,34 @@ body {
 }
 
 .stone {
-  background: URL('images/stone.jpg');
+  background: URL("images/stone.jpg");
   background-size: cover;
 }
 .soil {
-  background: URL('images/soil.png');
+  background: URL("images/soil.png");
   background-size: cover;
 }
 .grass {
-  background: URL('images/grass.png');
+  background: URL("images/grass.png");
   background-size: cover;
 }
 .sky {
   background-color: rgb(156, 233, 233);
 }
 #redstone {
-  background: URL('images/redstone.jpg');
+  background: URL("images/redstone.jpg");
   background-size: cover;
 }
 #gold {
-  background: URL('images/gold.png');
+  background: URL("images/gold.png");
   background-size: cover;
 }
 #diamond {
-  background: URL('images/diamond.png');
+  background: URL("images/diamond.png");
   background-size: cover;
 }
 #coal {
-  background: URL('images/coal.png');
+  background: URL("images/coal.png");
   background-size: cover;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 #box {
-  background: URL('images/box.png');
+  background: URL("images/box.png");
   background-size: cover;
   grid-area: 1/1/2/2;
   width: 5rem;
@@ -89,21 +89,21 @@ body {
 }
 
 #ax {
-  background: URL('images/ax.png');
+  background: URL("images/ax.png");
   background-size: cover;
 }
 
 #shovel {
-  background: URL('images/shovel.png');
+  background: URL("images/shovel.png");
   background-size: cover;
 }
 #pickaxe {
-  background: URL('images/pickaxe.png');
+  background: URL("images/pickaxe.png");
   background-size: cover;
 }
 
 #sword {
-  background: URL('images/sword.png');
+  background: URL("images/sword.png");
   background-size: cover;
 }
 
@@ -123,8 +123,10 @@ body {
 
 #items {
   display: none;
-  grid-area: 1/1/2/2;
-  width: 300px;
-  height: 100px;
-  background-color: grey;
+  grid-template-columns: repeat(3, 10em);
+  grid-template-rows: repeat(3, 10em);
+  background-color: #3b3a3a;
+  position: absolute;
+  top: 25%;
+
 }
